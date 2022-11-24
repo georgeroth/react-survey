@@ -15,10 +15,10 @@ function Main() {
     email: ""
   }
 
-  const answersList = [answers]
-
   const [open, setOpen] = useState(false); //Ignore this state
   const [answers, setAnswers] = useState(initialAnswers)
+
+  const answersList = [answers]
 
   const handleSubmit = (event) => {
     event.preventDefault();
